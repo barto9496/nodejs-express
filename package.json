@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-express",
+  "version": "1.0.0",
+  "description": "Node js express server ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo test not available"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barto9496/nodejs-express.git"
+  },
+  "author": "Amogh Umesh Katti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barto9496/nodejs-express/issues"
+  },
+  "homepage": "https://github.com/barto9496/nodejs-express#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
